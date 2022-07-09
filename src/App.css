@@ -1,7 +1,7 @@
 body {
   align-items: center;
   background-color: #282c34;
-  color: white;
+  color: deeppink;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,8 +14,19 @@ body {
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
-  padding: 24px;
+  padding: 16px;
   width: 300px;
+}
+
+.App-header a {
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.App-header a:hover {
+  background-color: grey;
+  color: #e7e7e7;
 }
 
 @media (prefers-reduced-motion: no-preference) {
